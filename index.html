@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pelix+</title>
+    <link rel="icon" type="image/png" href="/images/logo-cuadrado.png" />
+
+</head>
+
+<body>
+
+    <header >
+        <!-- Aquí quiero contener el logo a la izquierda enlazado al index en todas las páginas.  -->
+        <a href="index.html"> <img class="logo-home" src="/images/logo-cuadrado.png" alt="Logo"></a>
+        <nav>
+            <a class="botones" href="#cartelera">Cartelera</a>
+            <a class="botones" href="#peliculas">Peliculas</a>
+            <a class="botones" href="#series">Series</a>
+            <a class="botones" href="#interpretes">Actores</a>
+            <a class="botones" href="#footer">Nosotros</a>
+            <!-- A la derecha me gustaría tener botones con las secciones: Cartelera, TOP "Streaming", Indispensables, Peliculas, Series -->
+        </nav>
+    </header>
+
+    <main id="arriba">
+        <section class="principal">
+
+            <section class="carrousel-video">
+                <h1 class="titulo-imagen">Beekeeper</h1>
+                <p class="subtitulo">Jason Statham, Emmy Raver-Lampman</p>
+                <!-- En esta primera sección quiero mostrar un carrusel con 3 imagenes de fondo donde tenga texto encima: 1 Pelicula, 1 Serie, 1 Otra -->
+                <!-- ¿Puedo incrustar un iframe en la tercera? ¿Trailer? -->
+            </section>
+            <h1 class="titulo">Beekeeper: El protector</h1>
+            <h2 class="noticia-texto">12 de enero de 2024 en cines | 1h 45min | Acción, Suspense
+                Dirigida por David Ayer</h2>
+            <p class="noticia-texto">
+                En Beekeeper: Eloise Parker, una profesora jubilada que vive sola, es estafada y pierde más de
+                $2.000.000, llevándola al suicidio. Su inquilino, Adam Clay, es arrestado por la agente del FBI, Verona
+                Parker, pero es liberado al confirmarse el suicidio. Clay busca venganza y se une a los Beekeepers para
+                encontrar a los estafadores. Siguiendo pistas, enfrenta al líder de la estafa, Mickey Garnett, y luego a
+                Derek Danforth. Los Beekeepers inicialmente buscan a Clay, pero deciden no perseguirlo más tras un
+                enfrentamiento fallido. Verona y su compañero siguen las huellas de Clay, descubriendo que su próximo
+                objetivo es el Nine Points Center en Boston. Se forma un equipo para detener a Clay, revelando que los
+                Beekeepers son una organización clandestina. Clay derrota al equipo SWAT del FBI y se infiltra en el
+                edificio. Descubre que Derek es el líder de la estafa y que planea atacar a Jessica, la madre del
+                presidente. Clay activa bombas como distracción, entra a la mansión presidencial y enfrenta a Derek.
+                Jessica revela los crímenes de su hijo, Clay mata a Derek, y escapa con la ayuda de un equipo de buceo.
+
+            </p>
+        </section>
+
+        <section class="cartelera" id="cartelera">
+            <!-- grid con cartelera actual de cine -->
+            <article class="cartelera-container">
+                <h1 class="titulo2">Cartelera</h1>
+                <div class="carrousel-cartelera">
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/elcorreo-19enero.jpeg"
+                            alt="Portada-el-correo">
+                        <p class="titulo-cartelera">El Correo</p>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/cualquiera-menos-tu.jpeg"
+                            alt="cualquiera-menos-tu">
+                        <p class="titulo-cartelera">Cualquiera Menos Tu</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/beekeeper.jpeg" alt="beekeeper">
+                        <p class="titulo-cartelera">The Beekeeper</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/valle-de-sombras.jpeg"
+                            alt="valle-de-sombras">
+                        <p class="titulo-cartelera">Valle de Sombras</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/wonka.jpeg" alt="Wonka">
+                        <p>Wonka</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/ocho-apellidos-marroquis.jpeg"
+                            alt="ocho-apellidos-marroquis">
+                        <p class="titulo-cartelera">Ocho Apellidos Marroquís</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/aquaman.jpeg" alt="aquaman">
+                        <p class="titulo-cartelera">Aquaman y el Reino Perdido</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/chicas-malas.jpeg" alt="chicas-malas">
+                        <p class="titulo-cartelera">Chicas Malas</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/migration.jpg" alt="migration">
+                        <p class="titulo-cartelera">Migración</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/cuando-acecha-la-maldad.jpeg"
+                            alt="cuando-acecha-la-maldad">
+                        <p class="titulo-cartelera">Cuando Acecha la Maldad</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img class="imagen-cartelera" src="/images/cartelera/el-arca-de-noe.jpeg" alt="el-arca-de-noe">
+                        <p class="titulo-cartelera">El Arca de Noé</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div class="separador">
+            <h1 id="peliculas">Peliculas</h1>
+            <a href="#arriba"><img src="images/arriba.png" alt="arriba"></a>
+        </div>
+        <div class="cuerpo">
+            <aside class="lateral">
+
+            </aside>
+            <section class="noticias">
+                <!-- 1 articulo noticias de una película y 1 de una serie -->
+                <article class="noticia">
+                    <section class="noticia-cuerpo">
+                        <h1 class="titulo">Esta película de ciencia ficción lleva 40 años en desarrollo y tiene un
+                            presupuesto récord: Megalópolis</h1>
+                        <p class="noticia-texto">El director de El Padrino y Drácula lleva 40 años desarrollando
+                            Megalópolis,
+                            un filme que ha tenido que financiar de su propio bolsillo. Ahora, Coppola ha confirmado que
+                            el resultado se verá a principios de este año.
+                            <br>
+                            Megalópolis, liderada por Adam Driver y que finalizó su rodaje en marzo de 2023, llegará
+                            antes de lo que crees. "Solo faltan unos meses y se estrenará", ha dicho el director en el
+                            podcast Accutron (vía IndieWire). "Todo lo que puedo decir es que amo a los actores que
+                            están en ella. Es inusual y nunca es aburrida. Además de eso, espera y verás".El filme va a
+                            ser uno de los grandes eventos cinéfilos del año. No solo porque la idea lleva en mente de
+                            Coppola desde hace cuatro décadas, también porque es su primera película como director desde
+                            Twixt, que se estrenó en 2011. Por esto, no sería ninguna sorpresa que termine formando
+                            parte del Festival de Cannes.
+                            <br>
+                            Megalópolis es la historia de un arquitecto que, tras un desastre, quiere reconstruir la
+                            ciudad de Nueva York como una utopía. Su visión no puede llevarse a cabo por la resistencia
+                            al proyecto del alcalde de la ciudad, con cuya hija el arquitecto tiene un romance. Además
+                            de Driver, la película cuenta en su elenco con Aubrey Plaza, Nathalie Emmanuel, Jason
+                            Schwartzman, Giancarlo Esposito, Nathalie Emmanuel, Shia Labeouf, Dustin Hoffman, Laurence
+                            Fishburne, Jon Voight, Forest Whitaker, James Remar y Chloe Fineman.
+
+
+                        </p>
+                    </section>
+
+                    <div id="megalopolis">
+                        <p id="texto-noticias-imagenes">Adam Driver en 'Infiltrado en el KKKlan'.
+                        </p>
+                    </div>
+                    <!-- <a href="index.html"> <img class="imagen-noticia" src="/images/joker-fondo.jpeg" alt="Logo"></a> -->
+
+                </article>
+                <article class="noticia">
+                    <div id="sociedad-en-la-nieve">
+
+                        <iframe width="672" height="378"
+                            src="https://www.youtube.com/embed/l9tP4M8URhQ?si=zPg8UulZ0akqzl3Q"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+
+                    </div>
+
+                    <section class="noticia-cuerpo">
+                        <h1 class="titulo">"Probablemente las mayores modificaciones fueron estas": 'La sociedad de la
+                            nieve' solo cambió dos cosas respecto a la historia real
+                        </h1>
+                        <p class="noticia-texto">Son muchos los piropos que podemos dedicarle a La sociedad de la nieve
+                            de J.A.
+                            Bayona. El director español llevaba más de diez años trabajando en llevar de nuevo a
+                            pantalla la impactante historia conocida en todo el mundo como la tragedia de los Andes y
+                            finalmente ha sido posible gracias a Netflix, que le brindó al cineasta el presupuesto
+                            necesario, 60 millones de dólares según se ha reportado, y luz verde en los detalles que él
+                            creía imprescindibles para contarla bien, como el detalle de que fuese rodada en español y
+                            los supervivientes fueran interpretados por actores uruguayos y argentinos, entre otros
+                            ejemplos.
+                            <br>
+                            Juan Antonio Bayona tenía claro también que quería contar la historia de una forma diferente
+                            a como nos la habían contado hasta ahora. Había quedado absolutamente impresionado con la
+                            lectura de La sociedad de la nieve de Pablo Vierci y finalmente dio con la tecla: poner el
+                            foco sobre los que no volvieron, las víctimas que perdieron la vida en la montaña.
+                        </p>
+                    </section>
+
+                </article>
+                <article class="noticia">
+                    <section class="noticia-cuerpo">
+                        <h1 class="titulo">La canción de 'Parque Jurásico III' que adelanta la trama y que muy pocos han
+                            notado</h1>
+                        <p class="noticia-texto">Joe Johnston llevaba unos cuantos años detrás de dirigir una secuela de
+                            Parque
+                            Jurásico. Tenía una ventaja: era amigo personal de Steven Spielberg. Y, por fin, cuando el
+                            director decidió rechazar la tercera parte, supo a quién tenía que dársela. Originalmente,
+                            Michael Crichton, el novelista de las dos primeras entregas (que se adaptaron de aquella
+                            manera) decidió escribir el guion junto al propio Spielberg. Su idea inicial era la de un
+                            grupo de personas que se encontraban con el Doctor Grant durmiendo en un árbol dentro de una
+                            isla repleta de dinosaurios en la que se había escondido del mundo.
+                            <br>
+                            Pero a Johnston no le convencía porque no entendía cómo era posible que Grant volviera a una
+                            isla así después de lo ocurrido en las dos primeras entregas... Y no le falta razón. Hubo
+                            varios guiones a posteriori: uno tenía que ver con adolescentes en la isla, que Johnston
+                            calificó como "un mal episodio de Friends", y otro con dinosaurios matando gente y
+                            convirtiéndose en un problema a escala mundial. Al final, guion tras guion, la misma duda
+                            quedaba en la cabeza de todos los implicados, pero especialmente de Sam Neill: ¿Por qué
+                            demonios iba a volver a una isla llena de dinosaurios?
+                            <br>
+                            Y así entramos en la escena en la que le prometen un buen montón de dinero a cambio de hacer
+                            de guía una última vez. Para convencerle, los Kirbys le convencen de que son millonarios.
+                            Pero hay algo que no está bien, y el espectador lo nota. De fondo, suena la canción Big hat,
+                            no cattle, compuesta por Randy Newman, que trata sobre mentir y hacerte pasar por quien no
+                            eres: "Gente que tiene tarjetas en las que pone "productor" o "CEO", ¿qué cuesta tener
+                            tarjetas impresas con lo que quieras? Nada".
+                        </p>
+                    </section>
+                    <div id="jurassic">
+                        <p id="texto-noticias-imagenes">Jurassic Park' se equivocó: los velociraptors no cazaban en
+                            grupo.
+                        </p>
+                    </div>
+                </article>
+
+
+            </section>
+            <aside class="lateral">
+
+            </aside>
+
+        </div>
+        <div class="separador">
+            <h1 id="series">Series</h1>
+            <a href="#arriba"><img src="images/arriba.png" alt="arriba"></a>
+        </div>
+
+
+        <div class="cuerpo">
+            <aside class="lateral">
+
+            </aside>
+            <section class="noticias">
+                <!-- 1 articulo noticias de una película y 1 de una serie -->
+                <article class="noticia">
+                    <div id="griselda">
+                        <p id="texto-noticias-imagenes">Sofía Vergara interpretando el papel de Griselda (2024).
+                        </p>
+                    </div>
+                    <section class="noticia-cuerpo">
+                        <h1 class="titulo">Netflix añade lo nuevo de los creadores de 'Narcos', con Sofia Vergara, y una
+                            serie de animación de 'He-Man' entre los estrenos de esta semana</h1>
+                        <p class="noticia-texto">Netflix se ha reservado una de sus grandes apuestas seriéfilas de este
+                            2024
+                            para esta última semana completa de enero. Nos referimos a Griselda, el nuevo trabajo de los
+                            creadores de Narcos, inspirado en la historia real de la narcotraficante colombiana Griselda
+                            Blanco, a quien da vida Sofia Vergara.
+                            <br>
+                            A este esperado estreno, se suman estos días la ficción de animación Masters del Universo:
+                            Revolución, y la docuserie deportiva Seis naciones: El corazón del rugby.
+                            <br>
+                            Para los más cinéfilos, estos días se une al catálogo de películas el drama de ciencia
+                            ficción Cazadores en tierra inhóspita, secuela de Concrete Utopia.
+                            <br>
+                            Tres años después del final de Narcos: México llega a Netflix Griselda, la nueva serie
+                            original de los creadores de la ficción protagonizada por Diego Luna y de su predecesora,
+                            Narcos, protagonizada por Wagner Moura. En esta ocasión, es Sofia Vergara la encargada de
+                            dar vida al personaje principal de la historia: Griselda Blanco, una empresaria colombiana
+                            que se convirtió en la líder de uno de los cárteles más prolíficos de las décadas de 1970 y
+                            1980. La ficción narra los pasos que llevaron a Griselda a fundar el cártel de Medellín, y
+                            más tarde a convertirse en la pionera en la venta de cocaína en Miami.
+
+                        </p>
+                    </section>
+
+
+                    <!-- <a href="index.html"> <img class="imagen-noticia" src="/images/joker-fondo.jpeg" alt="Logo"></a> -->
+
+                </article>
+                <article class="noticia">
+                    <section class="noticia-cuerpo">
+                        <h1 class="titulo">'Reacher' (temporada 3): Fecha de estreno, tráiler, más clásicas historias y todo lo que sabemos de la nueva entrega
+                        </h1>
+                        <p class="noticia-texto">La temporada 2 de Reacher ha llegado a su fin este viernes 19 de enero con un episodio mejor valorado, según IMDB. Pero para aquellos que podrían dudar de si volvería o no por una temporada 3, tranquilos porque está confirmada mucho antes de que se estrenase la segunda.
+                            <br>
+                            “No puedo decir mucho de la temporada 3, pero diré que hay muchas historias clásicas de Reacher que son solo aventuras en las que se deja atrapar”, explica el mismo Alan Ritchson en una reciente entrevista con Comicbook antes del estreno de la temporada 2.
+                            <br>
+                            “Diciembre es la temporada del chocolate caliente, las sonrisas y ahora Reacher. Así es, la segunda temporada de Reacher que se estrena el 15 de diciembre en Prime Video. ¿Sabes de qué más es la temporada de diciembre? Sorpresas. Y tengo una para ti una sorpresa. Así es, estoy en el set de la tercera temporada de Reacher en este momento. Estamos oficialmente en marcha"
+                            <br>
+                            Teniendo en cuenta que su rodaje ya comenzó en diciembre de 2023, es muy posible que se estrene la temporada 3 a finales de este año 2024 y más aún cuando menciona que diciembre ahora también es el mes de Reacher.
+
+
+                        </p>
+                    </section>
+                    <div id="sociedad-en-la-nieve">
+
+                            <iframe width="672" height="378" src="https://www.youtube.com/embed/6mLes4YjAUY?si=S9mgByZR87ko4fvf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                </article>
+                <article class="noticia">
+                    <div id="california">
+                        <p id="texto-noticias-imagenes">Imagen extraida de la docuserie Netflix
+                        </p>
+                    </div>
+                    <section class="noticia-cuerpo">
+                        <h1 class="titulo">La inesperada y adictiva serie de 3 episodios que está arrasando en Netflix: una historia real se merienda a 'Berlín'</h1>
+                        <p class="noticia-texto">Aunque el género 'true crime' goza de buenísima salud desde hace años y tanto los documentales sobre crímenes reales como las series inspiradas en populares casos criminales se multiplican en las distintas plataformas, no son tantas las veces en las que consiguen convertirse en un gran éxito de audiencias y dominar los primeros puestos de lo más popular. Y, cuando ocurre, a menudo se trata de series sobre famosos casos como este 2023 con El cuerpo en llamas sobre El crimen de la Guardia Urbana, o en 2022 con Dahmer.
+                            <br>
+                            Sin embargo, este 2024 ha comenzado con una sorpresa en forma de serie documental 'true crime': una docuserie de tan solo tres episodios y poco más de dos horas de duración total que se ha estrenado un poco de puntillas en Netflix para rápidamente merendarse a las series de ficción que estaban triunfando en las primeras semanas de enero, la precuela de La casa de papel Berlín y la nueva adaptación de Harlan Coben Engaños.
+                            <br>
+                            Inesperada y adictiva, la historia real que se relata en Pesadilla de un secuestro en California está arrasando en Netflix y todos los que la ven coinciden en que es imposible no verse atrapado por una trama llena de giros y vueltas de tuerca que parece más propia de una película.
+                        </p>
+                    </section>
+                </article>
+
+
+            </section>
+            <aside class="lateral">
+
+            </aside>
+
+        </div>
+
+        <article class="carrousel-interpretes">
+            <!-- <h1 class="titulo2" id="interpretes">Actrices y Actores</h1> -->
+            <div class="separador">
+                <h1 id="interpretes">Actrices y Actores</h1>
+                <a href="#arriba"><img src="images/arriba.png" alt="arriba"></a>
+            </div>
+            <div class="carrousel-interpretes-imagenes">
+
+                <div class="tarjeta">
+                    <img class="imagen-actores" src="/images/actores/SashaGrey.webp" alt="SashaGrey">
+                    <p>1. Sasha Grey</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img class="imagen-actores" src="/images/actores/MarioCasas.webp" alt="MarioCasas">
+                    <p>2. Mario Casas</p>
+                </div>
+                <div class="tarjeta">
+                    <img class="imagen-actores" src="/images/actores/JasonStatham.webp" alt="JasonStatham">
+                    <p>3. Jason Statham</p>
+                </div>
+                <div class="tarjeta">
+                    <img class="imagen-actores" src="/images/actores/WillSmith.webp" alt="WillSmith">
+                    <p>4. Will Smith</p>
+                </div>
+                <div class="tarjeta">
+                    <img class="imagen-actores" src="/images/actores/MiaKhalifa.jpeg" alt="MiaKhalifa">
+                    <p>5. MiaKhalifa</p>
+                </div>
+
+
+
+            </div>
+        </article>
+    </main>
+    <footer id="footer">
+        <!-- <h2>SÍGUENOS</h2> -->
+        <div class="socialiconos">
+            <svg clas="social-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+            </svg>
+            <svg clas="social-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path
+                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+            </svg>
+            <svg clas="social-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+            <svg clas="social-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512 ">
+                <path
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+            </svg>
+        </div>
+        <ul>
+            <li class="acerca">Da tu Opinión</li>
+            <li class="acerca">Conctacta con Nosotros</li>
+            <li class="acerca">Politica de Privacidad</li>
+            <li class="acerca">Preguntas frecuentes</li>
+        </ul>
+        <div>
+            <img class="logo-footer" src="/images/logo-cuadrado.png" alt="">
+        </div>
+
+
+
+    </footer>
+
+</body>
+
+</html>
